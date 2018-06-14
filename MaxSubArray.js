@@ -1,6 +1,6 @@
 //Far too slow according to leetcode, I will have to redo this later without the nested loop.
 
-let maxSubArray = function(nums) {
+const maxSubArray = function(nums) {
     let arr = [];
     for(let i = 0;i<nums.length;i++){
         let num = i
