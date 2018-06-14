@@ -6,4 +6,4 @@ const lengthOfLastWord = function(s) {
 
 };
 
-console.log('Hello World')
+console.log(lengthOfLastWord('Hello World'))
