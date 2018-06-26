@@ -14,8 +14,7 @@ const integerBreak = function(n) {
             arr.push(2)
         }
     }
-    console.log(arr);
     return arr.reduce((a,b)=>a*b)
 };
 
-console.log(integerBreak(4))
+console.log(integerBreak(17))
