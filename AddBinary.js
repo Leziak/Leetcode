@@ -23,4 +23,5 @@ const addBinary = function(a, b) {
     return result.split('').reverse('').join('')
 }
 
-console.log(addBinary('10100', '111111111'))
+console.log(addBinary('1000', '111'))
+//console.log(addBinary('10100', '111111111'))
