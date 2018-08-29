@@ -8,19 +8,11 @@ class Solution:
         A, B = A.split(), B.split()
         words = []
         for word in A:
-            count = 0
-            for duplicate in A:
-                if duplicate == word:
-                    count += 1
-            if word not in B and count < 2:
+            if word not in B and A.count(word) < 2:
                 words.append(word)
                 count = 0
         for word in B:
-            count = 0
-            for duplicate in B:
-                if duplicate == word:
-                    count += 1
-            if word not in A and count < 2:
+            if word not in A and B.count(word) < 2:
                 words.append(word)
         return words
 
